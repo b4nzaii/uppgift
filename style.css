@@ -39,3 +39,45 @@ body{
   transform: rotate(45deg);
   margin-top: -4px;
 }
+.alexandra{
+  width: 300px;
+  height: 300px;
+  border: 2px solid black;
+  border-radius: 180px;
+  display: flex;
+  background-size: cover;
+  background-image: url("assets/profiles/Alexandra_Square.png")
+}
+.noperson{
+  width: 300px;
+  height: 300px;
+  border: 2px solid black;
+  border-radius: 180px;
+  display: flex;
+  background-size: cover;
+  background-image: url("assets/profiles/NoPerson_Square.png")
+}
+.rakib{
+  width: 300px;
+  height: 300px;
+  border: 2px solid black;
+  border-radius: 180px;
+  display: flex;
+  background-size: cover;
+  background-image: url("assets/profiles/Rakib_Square.png")
+}
+.sebastian{
+  width: 300px;
+  height: 300px;
+  border: 2px solid black;
+  border-radius: 180px;
+  display: flex;
+  background-size: cover;
+  background-image: url("assets/profiles/Sebastian_Square.png")
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+}
